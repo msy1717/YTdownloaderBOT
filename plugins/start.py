@@ -1,3 +1,6 @@
+
+import pyrogram
+
 from pyrogram import Client, filters, StopPropagation, InlineKeyboardButton, InlineKeyboardMarkup
 
 
