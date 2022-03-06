@@ -13,9 +13,9 @@
     - python3 -m bot
     
 ### Support Group:
-<a href="https://t.me/InFoJosTelGroup"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
+<a href="https://t.me/BeastX_Support"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
 ### Support Channel:
-<a href="https://t.me/LushaiMusic"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Channel-red.svg?logo=telegram"></a>
+<a href="https://t.me/BeastX_Bots"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Channel-red.svg?logo=telegram"></a>
 
 ## Deploy to Heroku
 
