@@ -28,8 +28,8 @@ async def ytdl(_, message):
                                      timedelta(minutes=youtube_next_fetch)
 
     except Exception:
-        await message.reply_text("`A fail tlat mai.. 😔 \nlo tlat. \n#error`")
-  
+        await message.reply_text("`error`")
+        return
     buttons = InlineKeyboardMarkup(list(create_buttons(formats)))
     sentm = await message.reply_text("Choose Format")
     try:
@@ -39,7 +39,7 @@ async def ytdl(_, message):
         await sentm.delete()
     except Exception as e:
         try:
-            thumbnail_url = ""
+            thumbnail_url = "https://telegra.ph/file/baad4df1f5262c455fb85.jpg"
             await message.reply_photo(thumbnail_url, caption=title, reply_markup=buttons)
         except Exception as e:
             await sentm.edit(
